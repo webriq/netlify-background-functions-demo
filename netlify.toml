@@ -1,0 +1,6 @@
+[build]
+  functions = "functions/"
+
+[dev]
+  functions = "functions/"
+  environment = { SITE_URL = "http://localhost:8888" }
