@@ -1,0 +1,13 @@
+### Netlify Function (Default)
+GET https://epic-cray-7e6ce4.netlify.app/.netlify/functions/hello
+
+### Netlify Function (Default) with data
+POST https://epic-cray-7e6ce4.netlify.app/.netlify/functions/hello
+Content-Type: application/json
+
+{
+  "message": "Hey this is cool! 😎"
+}
+
+### Netlify Function (Background)
+GET https://epic-cray-7e6ce4.netlify.app/.netlify/functions/hello-background

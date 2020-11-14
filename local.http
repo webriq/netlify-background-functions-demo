@@ -1,0 +1,13 @@
+### Netlify Function (Default)
+GET http://localhost:8888/.netlify/functions/hello
+
+### Netlify Function (Default) with data
+POST http://localhost:8888/.netlify/functions/hello
+Content-Type: application/json
+
+{
+  "message": "Hey this is cool! 😎"
+}
+
+### Netlify Function (Background)
+GET http://localhost:8888/.netlify/functions/hello-background
