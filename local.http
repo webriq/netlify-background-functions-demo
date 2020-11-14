@@ -11,3 +11,16 @@ Content-Type: application/json
 
 ### Netlify Function (Background)
 GET http://localhost:8888/.netlify/functions/hello-background
+
+
+### Netlify Function (Background) FAIL
+POST http://localhost:8888/.netlify/functions/hello-background-fail
+
+### Netlify Function (Background) Practical Example
+POST http://localhost:8888/.netlify/functions/send-pdf-background
+Content-Type: application/json
+
+{
+  "content": "We're doing this LIVE at UE! 💪",
+  "destination": "me@dorelljames.com"
+}
